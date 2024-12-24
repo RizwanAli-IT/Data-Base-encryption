@@ -1,0 +1,12 @@
+-- Create login table
+CREATE TABLE login (
+    user_id TEXT PRIMARY KEY,
+    username TEXT NOT NULL,
+    email TEXT NOT NULL,
+    number TEXT NOT NULL,
+    gender TEXT NOT NULL,
+    password TEXT NOT NULL,
+    address TEXT NOT NULL,
+    avatar_image TEXT NOT NULL,
+    created_at TEXT NOT NULL
+);

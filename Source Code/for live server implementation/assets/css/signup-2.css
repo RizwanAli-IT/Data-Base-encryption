@@ -1,0 +1,130 @@
+
+  span.material-symbols-outlined {
+    color: #5b3e2e;
+    cursor:pointer;
+    font-weight: 900;
+}
+  .icon 
+  {
+      display: flex;
+    color: #5b3e2e;
+    height: 2rem;
+    width: 2rem;
+    border-radius: .4rem;
+    flex-direction: row;
+    background-color: #fede4d;
+    align-items: center;
+    justify-content: center;
+  }
+.popup {
+    width: 50rem;
+    gap: 2rem;
+    display: flex
+;
+    align-items: center;
+    top: 1rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    background: #ffffff;
+}
+      /* Modal styles */
+      .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1000; /* Sit on top */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+          padding-top: 60px; /* Location of the box */
+      }
+
+      .modal-content {
+          background-color: #fefefe;
+          margin: 5% auto; /* 15% from the top and centered */
+          padding: 20px;
+          border: 1px solid #888;
+          width: 80%; /* Could be more or less, depending on screen size */
+          max-width: 500px; /* Maximum width */
+          position: relative; /* Position for the close button */
+      }
+
+      .close {
+          color: #aaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+          cursor: pointer;
+      }
+
+      .close:hover,
+      .close:focus {
+          color: black;
+          text-decoration: none;
+          cursor: pointer;
+      }
+
+      /* Center modal */
+      .modal-content {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+      }
+      span {
+    color: #5b3e2e;
+    font-size: .8rem;
+}
+/* Wrap the input and image */
+.input-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.input-wrapper .input {
+  width: 100%;
+  padding-right: 2.5rem; /* Make space for the icon */
+}
+
+.upload-icon {
+  position: absolute;
+  right: 1rem; /* Set the icon 1rem from the right edge */
+  top: 50%;
+  
+  transform: translateY(-50%); /* Vertically center the icon */
+  cursor: pointer;
+  height: 24px; /* Adjust the size as needed */
+  width: 24px;
+}
+   .email {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.input-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  padding-right: 2.5rem; /* Space for the toggle icons */
+  box-sizing: border-box; /* Ensure the padding fits inside the input */
+}
+
+.input-container img {
+  position: absolute;
+  right: 1rem;
+filter: invert(30%);
+  top: 50%;
+  transform: translateY(-50%); /* Vertically center the images */
+  cursor: pointer;
+  width: 1.5rem; /* Icon width */
+  height: 1.5rem; /* Icon height */
+}
